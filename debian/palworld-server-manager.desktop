@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Palworld Server Manager
+Comment=Gestionnaire de serveur Palworld
+Exec=/usr/local/bin/palworld-server-manager
+Icon=/usr/share/icons/hicolor/256x256/apps/palworld-server-manager.png
+Terminal=false
+Type=Application
+Categories=Game;Utility;
+Keywords=palworld;server;game;manager;

@@ -1,0 +1,19 @@
+Source: palworld-server-manager
+Section: games
+Priority: optional
+Maintainer: Palworld Server Manager Team <contact@example.com>
+Build-Depends: debhelper-compat (= 13), python3, python3-tk, python3-pil
+
+Package: palworld-server-manager
+Version: 1.0-1
+Architecture: all
+Depends: ${misc:Depends}, python3 (>= 3.8), python3-tk, python3-pil, python3-pil.imagetk
+Description: Gestionnaire de serveur Palworld
+ Une interface graphique simple et intuitive pour gérer votre serveur Palworld.
+ .
+ Fonctionnalités :
+  * Installation automatique du serveur
+  * Démarrage/Arrêt du serveur
+  * Sauvegarde automatique
+  * Mise à jour du serveur
+  * Interface moderne et conviviale

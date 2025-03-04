@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+export PYBUILD_NAME=palworld-server-manager
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_auto_install:
+	dh_auto_install
+	mkdir -p debian/palworld-server-manager/usr/bin
+	mkdir -p debian/palworld-server-manager/usr/share/applications
+	mkdir -p debian/palworld-server-manager/usr/share/icons/hicolor/256x256/apps
+	cp palworld_manager.py debian/palworld-server-manager/usr/bin/palworld-server-manager
+	chmod +x debian/palworld-server-manager/usr/bin/palworld-server-manager
+	cp Icon_256.png debian/palworld-server-manager/usr/share/icons/hicolor/256x256/apps/palworld-server-manager.png
+	cp debian/palworld-server-manager.desktop debian/palworld-server-manager/usr/share/applications/

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Palworld Server Manager
+Comment=Gestionnaire de serveur Palworld
+Exec=palworld-server-manager
+Icon=palworld-server-manager
+Terminal=false
+Type=Application
+Categories=Game;Utility;
+Keywords=palworld;server;game;manager;
