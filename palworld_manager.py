@@ -25,6 +25,12 @@ class PalworldServerManager:
             self.root = tk.Tk()
             self.root.title("Palworld Server Manager")
             
+            # Configuration de l'icône
+            icon_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "icons", "icon-256.png")
+            if os.path.exists(icon_path):
+                icon = ImageTk.PhotoImage(file=icon_path)
+                self.root.iconphoto(True, icon)
+            
             # Configuration des couleurs
             self.colors = {
                 'bg': '#2E2E2E',
