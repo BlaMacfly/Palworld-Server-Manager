@@ -2,6 +2,8 @@
 
 Un gestionnaire de serveur graphique pour Palworld sous Linux.
 
+![Interface du gestionnaire](docs/screenshots/interface.png)
+
 ## Fonctionnalités
 
 - Interface graphique conviviale
@@ -21,7 +23,7 @@ Un gestionnaire de serveur graphique pour Palworld sous Linux.
 
 1. Clonez ce dépôt :
 ```bash
-git clone https://github.com/VOTRE_USERNAME/palworld-server-manager.git
+git clone https://github.com/BlaMacfly/palworld-server-manager.git
 cd palworld-server-manager
 ```
 
@@ -44,7 +46,13 @@ python3 palworld_manager.py
 
 1. Lancez l'application depuis le menu des applications ou via la ligne de commande
 2. Sélectionnez le dossier d'installation du serveur Palworld
-3. Utilisez les boutons pour gérer votre serveur
+3. Utilisez les boutons pour gérer votre serveur :
+   - 💾 Installer : Installe ou réinstalle le serveur
+   - ▶️ Démarrer : Lance le serveur
+   - ⏹️ Arrêter : Arrête le serveur proprement
+   - 🔄 Mettre à jour : Met à jour le serveur via Steam
+   - 💾 Sauvegarder : Crée une sauvegarde du serveur
+   - 📁 Ouvrir : Ouvre le dossier du serveur
 
 ## Fonctionnement
 
