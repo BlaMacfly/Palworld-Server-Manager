@@ -2,6 +2,7 @@
 
 Un gestionnaire de serveur graphique pour Palworld sous Linux.
 
+<img src="icons/icon-256.png" alt="Logo" width="128" align="right"/>
 ![Interface du gestionnaire](docs/screenshots/interface.png)
 
 ## À propos
