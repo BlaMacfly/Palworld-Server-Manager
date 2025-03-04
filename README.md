@@ -4,6 +4,10 @@ Un gestionnaire de serveur graphique pour Palworld sous Linux.
 
 ![Interface du gestionnaire](docs/screenshots/interface.png)
 
+## À propos
+
+Ce projet a été développé par BlaMacfly sur Ubuntu 24.04.2 LTS. Il est conçu pour fonctionner sur les systèmes Linux et faciliter la gestion des serveurs Palworld.
+
 ## Fonctionnalités
 
 - Interface graphique conviviale
@@ -14,10 +18,10 @@ Un gestionnaire de serveur graphique pour Palworld sous Linux.
 
 ## Prérequis
 
+- Linux (testé sur Ubuntu 24.04.2 LTS)
 - Python 3.x
-- tkinter
-- Serveur Palworld installé via Steam
-- steamcmd installé
+- pip (gestionnaire de paquets Python)
+- Steam (pour l'installation du serveur)
 
 ## Installation
 
@@ -32,11 +36,6 @@ cd palworld-server-manager
 pip install -r requirements.txt
 ```
 
-3. Modifiez le chemin du serveur dans `palworld_manager.py` si nécessaire :
-```python
-self.server_path = "/home/steam/Steam/steamapps/common/PalServer"  # Modifiez selon votre installation
-```
-
 3. Lancez le gestionnaire :
 ```bash
 python3 palworld_manager.py
@@ -47,22 +46,21 @@ python3 palworld_manager.py
 1. Lancez l'application depuis le menu des applications ou via la ligne de commande
 2. Sélectionnez le dossier d'installation du serveur Palworld
 3. Utilisez les boutons pour gérer votre serveur :
-   - 💾 Installer : Installe ou réinstalle le serveur
-   - ▶️ Démarrer : Lance le serveur
-   - ⏹️ Arrêter : Arrête le serveur proprement
-   - 🔄 Mettre à jour : Met à jour le serveur via Steam
-   - 💾 Sauvegarder : Crée une sauvegarde du serveur
-   - 📁 Ouvrir : Ouvre le dossier du serveur
-
-## Fonctionnement
-
-- Le bouton "Démarrer le serveur" lance le serveur Palworld
-- Le bouton "Arrêter le serveur" arrête proprement le serveur
-- Le bouton "Mettre à jour le serveur" lance une mise à jour via Steam
-- Le bouton "Créer une sauvegarde" crée une copie de sauvegarde dans le dossier ~/palworld_backups
-- Le statut du serveur est vérifié toutes les 5 secondes
-- Tous les événements sont enregistrés dans la zone de logs
+   - Installer : Installe ou réinstalle le serveur
+   - Démarrer : Lance le serveur
+   - Arrêter : Arrête le serveur proprement
+   - Mettre à jour : Met à jour le serveur via Steam
+   - Sauvegarder : Crée une sauvegarde du serveur
+   - Ouvrir : Ouvre le dossier du serveur
 
 ## Contribution
 
 Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request.
+
+## Licence
+
+Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
+## Auteur
+
+- **BlaMacfly** - [GitHub](https://github.com/BlaMacfly)
