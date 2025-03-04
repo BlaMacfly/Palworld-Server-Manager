@@ -1,4 +1,4 @@
-# Palworld Server Manager
+# Palworld-Server-Manager
 
 Un gestionnaire de serveur graphique pour Palworld sous Linux.
 
